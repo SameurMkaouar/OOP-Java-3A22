@@ -13,9 +13,6 @@ public class Animal {
     public void afficher(){
         System.out.println("Family: " + family + ", Name: " + name + ", Age: " + age + " years old, Is mammal: " + (isMammal ? "Yes" : "No"));
     }
-    public String toString (){
-        return("Family: " + family + ", Name: " + name + ", Age: " + age + " years old, Is mammal: " + (isMammal ? "Yes" : "No"));
-    }
 
 
 }
